@@ -2,3 +2,6 @@
 ### Change added
 
 - <!--Here, describe the changes you're introducing. In this pull request, you're introducing a configuration file for CircleCI.-->
+git fetch origin
+git checkout -b custom-build origin/custom-build
+git merge main
