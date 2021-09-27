@@ -8,3 +8,6 @@ jobs:
     executor: ci-executor
     steps:
       - checkout
+git fetch origin
+git checkout -b custom-build origin/custom-build
+git merge main
