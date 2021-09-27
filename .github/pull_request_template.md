@@ -5,3 +5,6 @@
 git fetch origin
 git checkout -b custom-build origin/custom-build
 git merge main
+git checkout main
+git merge --no-ff custom-build
+git push origin main
